@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="game-con">
+            <header>
+                <h1>Rock Paper Scissors</h1>
+                <div class="score-flex">
+                    <h3>Player Score:<span id="p-score">0</span></h3>
+                    <h3>Computer Score:<span id="c-score">0</span></h3>
+                </div>
+            </header>
+            <div class="wrapper">
+                <button class="emoji-big" id="rock">✊</button>
+                <button class="emoji-big" id="paper">✋</button>
+                <button class="emoji-big" id="scissors">✌️</button>
+            </div>
+
+            <div class="win-or-lose"></div>
+            
+            <div class="box-wrapper">
+                <div class="box-tool">
+                    <p>Player</p>
+                    <div class="box1"></div>
+                </div>
+
+                    <div class="vs-box">
+                        <div class="vs">Vs</div>
+                    </div>
+
+                <div class="box-tool">
+                    <p>Hal - 9000</p>
+                    <div class="box2"></div>
+                </div>
+            </div>
+        </header>
+        <script src="index.js"></script>
+    </body>
+</html>
